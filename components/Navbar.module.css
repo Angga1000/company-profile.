@@ -1,0 +1,38 @@
+.navbar {
+  background-color: #333;
+  padding: 1rem;
+}
+
+.navList {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.navItem a {
+  color: #ddd;
+  text-decoration: none;
+  font-weight: normal;
+  transition: color 0.3s;
+}
+
+.navItem a:hover {
+  color: #fff;
+}
+
+.navItem a.active {
+  color: #4da6ff;
+  font-weight: bold;
+  border-bottom: 2px solid #4da6ff;
+}
+
+@media (max-width: 600px) {
+  .navList {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+}

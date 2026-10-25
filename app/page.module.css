@@ -148,3 +148,41 @@ a.secondary {
   padding: 0.1em 0.4em;
   border-radius: 6px;
 }
+
+.container {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.studentInfo {
+  margin-top: 3rem;
+  padding: 1rem;
+  border-top: 1px solid #eee;
+}
+
+.quote {
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.imageWrapper {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.customImage {
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
